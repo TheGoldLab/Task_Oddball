@@ -1,17 +1,26 @@
 # Oddball
 
+
+Lab streaming layer (LSL) : system for synchronizing streaming data for real-time streaming, recording, and analysis of biodata. The openbci_pylsl program uses Python to establish an LSL stream that can be received using scripts in Matlab. 
+
+LabRecorder : application from LSL that we use here to save the EEG streaming (and the timestamps of each event in the task). It creates an XDF file that you can later convert to a mat file.
+
+More Info here:
+https://github.com/OpenBCI/OpenBCI_MATLAB
+https://openbci.com/index.php/forum/
+
 __________________________________________________________
-Steps to follow to make the EEG system work with Matlab:
+Steps to follow to use the EEG system during the experiment:
 __________________________________________________________
 
 1 - Plug the EEG Dongle first (in the first USB port from the left), and then turn the board on (a blue light should be seen in 
-both the dongle and the board). If you do this opposite it's not going to work!
+both the dongle and the board). If you do the opposite it's not going to work!
 
-2 - Install the plugin in terminal : 
+2 - Install the plugin in the terminal : 
+
+    cd /Users/joshuagold/Psychophysics/Downloaded/OpenBCI_Python 
 
     sudo -H pip install -r requirements.txt
-
-    cd /Users/joshuagold/Psychophysics/Projects/EEG_projects/OpenBCI_Python
 
     python user.py -p=/dev/tty.usbserial-DQ007NVN --add streamer_lsl
 
@@ -22,27 +31,28 @@ both the dongle and the board). If you do this opposite it's not going to work!
 
 3 -  In Matlab
 
-Be sure to add the paths: labstreaminglayer
+Be sure to add the paths of the folder 'labstreaminglayer' (should be in the script 'pathNames.m')
 
---> addpath(genpath('/Users/joshuagold/Psychophysics/Projects/python_projects/labstreaminglayer-master'))
+--> addpath(genpath('/Users/joshuagold/Psychophysics/Downloaded/labstreaminglayer-master'))
 
-To visualize streaming
-Vis_stream()
-Info to add in the window:
-10
-5
-150
-1:9
-250
-10
-[4 5 50 60]
+4 - Run script 'oddballRun_TonicPhasicEEG.m'
 
-To start streaming:
-Select Online Analysis > Read input from… > Lab streaming layer…
+	When it is in pause, open LabRecorder. Should be found here:
 
-	•	To load an .xdf file, type in the command line:
-streams = load_xdf('your_file_name.xdf')
+	/Users/joshuagold/Psychophysics/Downloaded/labstreaminglayer-master/build/lsl_Release/lslinstall/LabRecorder 
+	
+	In the window LabRecorder, check all boxes, give a name to the new file and click save
+	
+	!!!! If Matlab crashes, run the sript 'visualizeEEG.m' in a parallel Matlab!!!!!
 
 
-Useful command line:
-open -a Finder /nameFolder
+5 - When the task is over
+
+	- Stop the saving in the LabRecorder
+	- enter /stop
+		/exit
+		in terminal (to stop the streaming)
+
+
+
+
