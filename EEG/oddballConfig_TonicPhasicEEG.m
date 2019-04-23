@@ -1,9 +1,11 @@
-% ODDBALL TASK. VERSION: oddball task with dynamometors + eyelink.
+
+% ODDBALL TASK. VERSION: oddball task with dynamometors + eyelink + EEG
 % Effect of the tonic level is tested in this version (non dominant hand squeezes the
 % dynamometor through the whole session while the dominant hand responds to the stimuli)
-% Here are tested different threshold of tonic level: from 5% to 30% of the
+% Here are the different threshold of tonic level tested: from 5% to 30% of the
 % maximal strength.
 %__________________________________________________________________________________
+
 
 function [maintask, list] = oddballConfig_TonicPhasicEEG(opposite_input_on, subID, values, strength,calibTones,calibFiles, outlet)
 %% Housekeeping
