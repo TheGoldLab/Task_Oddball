@@ -6,7 +6,9 @@ Lab streaming layer (LSL) : system for synchronizing streaming data for real-tim
 LabRecorder : application from LSL that we use here to save the EEG streaming (and the timestamps of each event in the task). It creates an XDF file that you can later convert to a mat file.
 
 More Info here:
+
 https://github.com/OpenBCI/OpenBCI_MATLAB
+
 https://openbci.com/index.php/forum/
 
 __________________________________________________________
@@ -20,7 +22,7 @@ both the dongle and the board). If you do the opposite it's not going to work!
 
     cd /Users/joshuagold/Psychophysics/Downloaded/OpenBCI_Python 
 
-    sudo -H pip install -r requirements.txt
+    If not already done: sudo -H pip install -r requirements.txt
 
     python user.py -p=/dev/tty.usbserial-DQ007NVN --add streamer_lsl
 
