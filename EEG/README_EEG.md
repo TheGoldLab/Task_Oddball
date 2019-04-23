@@ -55,6 +55,10 @@ Be sure to add the paths of the folder 'labstreaminglayer' (should be in the scr
 		/exit
 		in terminal (to stop the streaming)
 
+_______________________
+What's in the XDF file?
+_______________________
 
+In the xdf file (EEG data), you will find the timestamps under the name 'xdfdata{1, 1}.time_stamps' and the events it refers to under the name 'xdfdata{1, 1}.time_series'. 'Stim' refers to the beginning of the trial, 'Squeeze' refers to the beginning of the dominant hand response.
 
 
