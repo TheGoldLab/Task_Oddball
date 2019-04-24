@@ -1,4 +1,4 @@
-# Oddball
+# Oddball tasks
 
 *An Oddball task is a task in which stimuli are presented in a continuous stream and participants must detect the presence of an oddball stimulus. The oddball is a stimulus that occurs infrequently relative to all other stimuli, and has distinct characteristics (e.g., a different tone among auditory stimuli).
 
@@ -20,7 +20,7 @@ Same task as the above but works with EEG. Specific steps are indicated in the r
 
 ## 3) FTLD
 
-Simplier oddball task for the FTD patients. Subjects squeeze with both hands (when they can) when hearing either the oddball tone or the standard tone (depending on the block). The task contains novels sounds as well (sounds in the wav folder).
+Simplier oddball task for the FTD patients. Subjects squeeze with both hands (when they can) when hearing either the oddball tone or the standard tone (depending on the block). The task contains novels sounds as well.
 
 
 
