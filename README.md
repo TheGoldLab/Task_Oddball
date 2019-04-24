@@ -1,6 +1,6 @@
 # Oddball tasks
 
-*An Oddball task is a task in which stimuli are presented in a continuous stream and participants must detect the presence of an oddball stimulus. The oddball is a stimulus that occurs infrequently relative to all other stimuli, and has distinct characteristics (e.g., a different tone among auditory stimuli).
+*An Oddball task is a task in which stimuli are presented in a continuous stream and participants must detect the presence of an oddball stimulus. The oddball is a stimulus that occurs infrequently relative to all other stimuli, and has distinct characteristics (e.g., a different tone among auditory stimuli).*
 
 This folder contains 3 types of Oddball experiment.
 
