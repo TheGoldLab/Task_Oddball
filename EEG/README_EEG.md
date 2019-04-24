@@ -1,4 +1,4 @@
-# Oddball Phasic Tonic
+# Oddball Phasic Tonic EEG
 
 
 Lab streaming layer (LSL) : system for synchronizing streaming data for real-time streaming, recording, and analysis of biodata. The openbci_pylsl program uses Python to establish an LSL stream that can be received using scripts in Matlab. 
@@ -15,10 +15,10 @@ __________________________________________________________
 ## Steps to follow to use the EEG system during the experiment:
 __________________________________________________________
 
-**1 - ** Plug the EEG Dongle first (in the first USB port from the left), and then turn the board on (a blue light should be seen in 
+__1 -__ Plug the EEG Dongle first (in the first USB port from the left), and then turn the board on (a blue light should be seen in 
 both the dongle and the board). If you do the opposite it's not going to work!
 
-**2 - ** Install the plugin in the terminal : 
+__2 -__Install the plugin in the terminal : 
 
     cd /Users/joshuagold/Psychophysics/Downloaded/OpenBCI_Python 
 
@@ -31,13 +31,13 @@ both the dongle and the board). If you do the opposite it's not going to work!
     To disconnect from serial port: /exit
 
 
-3 -  In Matlab
+__3 -__  In Matlab
 
 Be sure to add the paths of the folder 'labstreaminglayer' (should be in the script 'pathNames.m')
 
 --> addpath(genpath('/Users/joshuagold/Psychophysics/Downloaded/labstreaminglayer-master'))
 
-4 - Run script 'oddballRun_TonicPhasicEEG.m'
+__4 -__ Run script 'oddballRun_TonicPhasicEEG.m'
 
 	When it is in pause, open LabRecorder. Should be found here:
 
@@ -48,7 +48,7 @@ Be sure to add the paths of the folder 'labstreaminglayer' (should be in the scr
 	!!!! If Matlab crashes, run the sript 'visualizeEEG.m' in a parallel Matlab!!!!!
 
 
-5 - When the task is over
+__5 -__ When the task is over
 
 	- Stop the saving in the LabRecorder
 	- enter /stop
