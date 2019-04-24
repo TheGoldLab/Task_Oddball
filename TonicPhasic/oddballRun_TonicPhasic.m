@@ -1,13 +1,12 @@
 
 
-%% ODDBALL EXPERIMENT : 
-%__________________________________________________________________________
-% Tonic hand  = Nondominant hand constant grip (with different threshold) 
-% Phasic hand = Dominant hand squeeze on oddballs (with medium strength)
-%__________________________________________________________________________
+%% ODDBALL EXPERIMENT
 
 clear all, clear all, close all;
 pathNames();
+
+% Consent form     
+% SubjectData
 
 % 1 - Load max strength
 load('strengthAll.mat'); % RH THEN LH 
@@ -21,7 +20,7 @@ resp   = input(prompt,'s');
 if strcmp(resp,'y') || strcmp(resp,'Y')
     valuesThreshold = [5 10 15 20 25 30];
     vals = valuesThreshold([randperm(2,1),randperm(2,1)+2,randperm(2,1)+4]);
-else % enter the thresholds not done on session 1
+else
     prompt = 'What are the thresholds of the tonic condition? ';
     vals = input(prompt);
 end
