@@ -11,14 +11,14 @@ https://github.com/OpenBCI/OpenBCI_MATLAB
 
 https://openbci.com/index.php/forum/
 
-__________________________________________________________
+
 ## Steps to follow to use the EEG system during the experiment:
-__________________________________________________________
+
 
 __1 -__ Plug the EEG Dongle first (in the first USB port from the left), and then turn the board on (a blue light should be seen in 
 both the dongle and the board). If you do the opposite it's not going to work!
 
-__2 -__Install the plugin in the terminal : 
+__2 -__ Install the plugin in the terminal : 
 
     cd /Users/joshuagold/Psychophysics/Downloaded/OpenBCI_Python 
 
