@@ -1,4 +1,4 @@
-# Oddball
+# Oddball Phasic Tonic
 
 
 Lab streaming layer (LSL) : system for synchronizing streaming data for real-time streaming, recording, and analysis of biodata. The openbci_pylsl program uses Python to establish an LSL stream that can be received using scripts in Matlab. 
@@ -12,13 +12,13 @@ https://github.com/OpenBCI/OpenBCI_MATLAB
 https://openbci.com/index.php/forum/
 
 __________________________________________________________
-Steps to follow to use the EEG system during the experiment:
+## Steps to follow to use the EEG system during the experiment:
 __________________________________________________________
 
-1 - Plug the EEG Dongle first (in the first USB port from the left), and then turn the board on (a blue light should be seen in 
+**1 - ** Plug the EEG Dongle first (in the first USB port from the left), and then turn the board on (a blue light should be seen in 
 both the dongle and the board). If you do the opposite it's not going to work!
 
-2 - Install the plugin in the terminal : 
+**2 - ** Install the plugin in the terminal : 
 
     cd /Users/joshuagold/Psychophysics/Downloaded/OpenBCI_Python 
 
