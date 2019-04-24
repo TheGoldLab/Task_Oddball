@@ -22,6 +22,10 @@ Same task as the above but works with EEG. Specific steps are indicated in the r
 
 Simplier oddball task for the FTD patients. Subjects squeeze with both hands (when they can) when hearing either the oddball tone or the standard tone (depending on the block). The task contains novels sounds as well.
 
+### Other files
+
+TestStrength(): measures maximal strength of subjects.
+CalibTones and CalibFiles mat files: calibrate each sound to reach 8 db.
 
 
 
