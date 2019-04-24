@@ -25,6 +25,7 @@ Simplier oddball task for the FTD patients. Subjects squeeze with both hands (wh
 ### Other files
 
 TestStrength(): measures maximal strength of subjects.
+
 CalibTones and CalibFiles mat files: calibrate each sound to reach 8 db.
 
 
