@@ -4,7 +4,7 @@
 
 This folder contains 3 types of Oddball experiment.
 
-## 1) Phasic Tonic: 
+### 1) Phasic Tonic: 
 
 Goal: Test both the effects of the tonic (constant strength: nondominant hand) and phasic (motor response: dominant hand) levels on the pupil size. 
 
@@ -14,11 +14,11 @@ The non dominant hand squeezes the dynamometor and hold the grip with different 
 
 The dominant hand squeezes (shortly) the dynamometer when the oddball tone comes up. As the subject squeezes the dynamometer, a cercle grows, it has to fit/reach the outer circle that is tuned to 40% of the subject maximal strength. That helps reducing the variability of the the motor responses and control better the motor strength of the subject. 
 
-## 2) EEG: 
+### 2) EEG: 
 
 Same task as the above but works with EEG. Specific steps are indicated in the readmeEEG file.
 
-## 3) FTLD
+### 3) FTLD
 
 Simplier oddball task for the FTD patients. Subjects squeeze with both hands (when they can) when hearing either the oddball tone or the standard tone (depending on the block). The task contains novels sounds as well.
 
