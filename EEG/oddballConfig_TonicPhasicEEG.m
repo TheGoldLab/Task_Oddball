@@ -281,7 +281,7 @@ stimList = {'name', 'entry', 'input', 'exit', 'timeout', 'next';
                  'CheckReady', {}, {}, {@checkReady list}, 0, 'Stimulus';
                  'Stimulus', {stimulusfunc list}, {}, {}, 0, 'ReadDyno';
                  'ReadDyno', {}, {@readStrengthBaseline, list}, {}, reactionwindow, 'CheckFix';
-                 'CheckFix', {@checkFixation list}, {}, {}, 0, 'Feedback'
+                 'CheckFix', {@checkFixation list}, {}, {}, 0, 'Feedback';
                  'Feedback', {}, {checkfunc list}, {}, 0, '';
                  'Correct', {despin dot}, {}, {}, 0, '';
                  'Incorrect', {spin dot}, {}, {}, 0.1, ''};
